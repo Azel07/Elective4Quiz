@@ -11,7 +11,7 @@ os.chdir(script_dir)
 print(f"Current working directory: {os.getcwd()}")
 
 # --- STEP 2: FIND THE CSV ---
-csv_files = glob.glob("*.csv")
+csv_files = glob.glob("vaccinations.csv")
 
 if not csv_files:
     print("Error: No CSV file found in this folder!")
